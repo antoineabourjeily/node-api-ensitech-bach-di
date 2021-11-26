@@ -3,7 +3,7 @@
     {
       "id": 1,
       "description": "first item",
-      "done": true
+      "done": false
     },
     {
       "id": 2,
