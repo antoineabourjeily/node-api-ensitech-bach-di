@@ -13,7 +13,9 @@ const logger = (req, res, next) => {
 // req => logger => res
 
 app.use(express.json());
+app.use(express.static('./public'))
 app.use("/api", logger);
+
 //list
 app.get("/api/items", (req, res) => {
   res.json(listItems());

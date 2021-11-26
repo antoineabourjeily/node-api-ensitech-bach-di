@@ -15,7 +15,8 @@
   },
   "nodemonConfig": {
     "ignore": [
-      "data/*"
+      "data/*",
+      "public/*"
     ]
   }
 }
