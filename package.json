@@ -12,5 +12,10 @@
   "dependencies": {
     "express": "^4.17.1",
     "lowdb": "^3.0.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*"
+    ]
   }
 }
